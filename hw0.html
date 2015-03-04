@@ -48,7 +48,7 @@ function init()
 	camera.lookAt (new THREE.Vector3(0,0,0));
 
 	// FLOOR
-	var floorTexture = new THREE.ImageUtils.loadTexture( "images/myphoto.jpg" );
+	var floorTexture = new THREE.ImageUtils.loadTexture( 'images/myphoto.jpg' );
 	//floorTexture.wrapS = floorTexture.wrapT = THREE.RepeatWrapping; 
 	//floorTexture.repeat.set( 4, 4 );
 	var floorMaterial = new THREE.MeshBasicMaterial( { map: floorTexture, side: THREE.DoubleSide } );
